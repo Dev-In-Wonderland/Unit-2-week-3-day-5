@@ -364,80 +364,104 @@ asyncAwaitExample6()
 
 
 asyncAwaitExample7()
-  const asyncAwaitExample8 = async function () {
-      try {
+
+
+
+
+
+
+
+
+let body = document.getElementById('body-modal')
+body.innerText = body.innerText +  `Song: One more time,
+Song: Get lucky,
+Song: Harder better faster stronger,
+Song: Scatman,
+Album: Translation,
+Album: The Highlights,
+Album: Blurryface`
+
+
+
+
+
+
+
+
+//   const asyncAwaitExample8 = async function () {
+//       try {
       
           
-        let res = await fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q= blurryface ')
-        let res1 = await fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q= the highlights ')
+//         let res = await fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q= blurryface ')
+//         let res1 = await fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q= the highlights ')
           
-      console.log(res)
-      if (res.ok && res1.ok) {
-        let data = await res.json()
-        let data1 = await res1.json()
+//       console.log(res)
+//       if (res.ok && res1.ok) {
+//         let data = await res.json()
+//         let data1 = await res1.json()
 
-        console.log('data', data)
+//         console.log('data', data)
   
         
         
         
-        data.data.forEach((album) => {
-            if(album.id === 99976952){
-                window.alert(`Questi sono i titoli della pagina: ${album.album.title}`)
+//         data.data.forEach((album) => {
+//             if(album.id === 99976952){
+//                 window.alert(`Questi sono i titoli della pagina: ${album.album.title}`)
                 
                   
-                }})
-        data1.data.forEach((album) => {
-            if(album.id === 1225758602){
-                window.alert(`Questi sono i titoli della pagina: ${album.album.title}`)
+//                 }})
+//         data1.data.forEach((album) => {
+//             if(album.id === 1225758602){
+//                 window.alert(`Questi sono i titoli della pagina: ${album.album.title}`)
                 
                   
-                }})
-            } else {
+//                 }})
+//             } else {
         
-                console.log('Qualcosa è andato storto con la nostra chiamata!')
-      }
-    } catch (error) {
+//                 console.log('Qualcosa è andato storto con la nostra chiamata!')
+//       }
+//     } catch (error) {
         
-        console.log(error)
-    }
-}
+//         console.log(error)
+//     }
+// }
 
 
 
-  const asyncAwaitExample9 = async function () {
-      try {
+//   const asyncAwaitExample9 = async function () {
+//       try {
       
-          let res = await fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q= blurryface ')
-          let res1 = await fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q= the highlights ')
+//           let res = await fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q= blurryface ')
+//           let res1 = await fetch('https://striveschool-api.herokuapp.com/api/deezer/search?q= the highlights ')
           
-      console.log(res)
-      if (res.ok && res1.ok) {
-        let data = await res.json()
-        let data1 = await res1.json()
+//       console.log(res)
+//       if (res.ok && res1.ok) {
+//         let data = await res.json()
+//         let data1 = await res1.json()
 
-        console.log('data', data)
+//         console.log('data', data)
   
         
         
         
-        data.data
-        data1.data
+//         data.data
+//         data1.data
         
-        .forEach((album) => {
-            if((album.id === 99976952) || (album.id === 1225758602)){
-                window.alert(`Questi sono i titoli della pagina: ${album.album.title}`)
+//         .forEach((album) => {
+//             if((album.id === 99976952) || (album.id === 1225758602)){
+//                 window.alert(`Questi sono i titoli della pagina: ${album.album.title}`)
                   
-                }})
-            } else {
+//                 }})
+//             } else {
         
-                console.log('Qualcosa è andato storto con la nostra chiamata!')
-      }
-    } catch (error) {
+//                 console.log('Qualcosa è andato storto con la nostra chiamata!')
+//       }
+//     } catch (error) {
         
-        console.log(error)
-    }
-}
+//         console.log(error)
+//     }
+// }
 
 
 
@@ -455,10 +479,10 @@ asyncAwaitExample7()
 
 
         // predisponiamo la funzione che eliminerà il contenuto dell' ultimo elemento della pagina una volta chiamata
-        function myFun() {
-            let elem = document.getElementById('1487404239');
-            elem.parentNode.removeChild(elem);
-        }
+        // function myFun() {
+        //     let elem = document.getElementById('1487404239');
+        //     elem.parentNode.removeChild(elem);
+        // }
         
         
         

@@ -472,3 +472,9 @@ body {
       #visib {
         color: black !important;
       }
+
+
+
+      .modal{
+        z-index: 99999999999999 !important;
+      }
