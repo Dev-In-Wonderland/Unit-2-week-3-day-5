@@ -383,7 +383,16 @@ Album: Blurryface`
 
 
 
-
+const alert = function () {
+    window.alert(
+    `Song: One more time,
+    Song: Get lucky,
+    Song: Harder better faster stronger,
+    Song: Scatman,
+    Album: Translation,
+    Album: The Highlights,
+    Album: Blurryface`)
+}
 
 
 
