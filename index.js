@@ -208,7 +208,7 @@
                   <div class="item active div-quote">
                   <div class="row">
                   <div class="col-sm-12">
-                  <img src=${album.album.cover} class=" d-block rounded border border-5 border-success w-75 h-75 my-0 mx-auto" alt="">
+                  <img src=${album.album.cover} class=" d-block rounded border border-5 border-success w-75 h-100 my-0 mx-auto" alt="">
                   <div class="carousel-caption">
                   <h3 class="fs-1">${album.album.title}</h3>
                   <h4 class="vacche">${album.artist.name} </h4>
@@ -337,7 +337,7 @@ asyncAwaitExample6()
                          <div class="item div-quote">
                          <div class="row">
                          <div class="col-sm-12 text-center">
-                             <img src=${album.album.cover} class=" d-block rounded border border-5 border-danger w-50 h-100 my-0 mx-auto" alt="Jackie Chan">
+                             <img src=${album.album.cover} class=" d-block rounded border border-5 border-danger w-75 h-100 my-0 mx-auto" alt="Jackie Chan">
                              <div class="carousel-caption">
                               <h3 class="fs-1">${album.album.title}</h3>
                            <h4 class=" sushi ">${album.artist.name}</h4>
