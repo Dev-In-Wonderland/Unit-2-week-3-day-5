@@ -193,7 +193,7 @@ const asyncAwaitExample5 = async function () {
                   <!-- Quote 1 -->
                   <div class="item active div-quote">
                   <div class="row">
-                  <div class="col-12 bg-dark">
+                  <div class="col-12 bg-transparent">
                   <img src=${album.album.cover} class=" d-block rounded border border-5 border-success w-75 h-100 my-0 mx-auto" alt="">
                   <div class="carousel-caption">
                   <h3 class="fs-1">${album.album.title}</h3>
@@ -255,7 +255,7 @@ const asyncAwaitExample6 = async function () {
                         <!-- Quote 2 -->
                          <div class="item div-quote text-center">
                          <div class="row">
-                         <div class="col-12 text-center bg-dark">
+                         <div class="col-12 text-center bg-transparent">
                              <img src=${album.album.cover} class="d-block border-5 rounded border border-primary w-75 h-100 my-0 mx-auto" alt="Jim">
                              <div class="carousel-caption">
                              <h3 class="fs-1">${album.album.title}</h3>
@@ -312,7 +312,7 @@ const asyncAwaitExample7 = async function () {
                         <!-- Quote 3 -->
                          <div class="item div-quote">
                          <div class="row">
-                         <div class="col-12 bg-dark text-center">
+                         <div class="col-12 bg-transparent text-center">
                              <img src=${album.album.cover} class=" d-block rounded border border-5 border-danger w-75 h-100 my-0 mx-auto" alt="Jackie Chan">
                              <div class="carousel-caption">
                               <h3 class="fs-1">${album.album.title}</h3>
