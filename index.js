@@ -348,12 +348,7 @@ Album: Translation,
 Album: The Highlights,
 Album: Blurryface`;
 
-
-
-
 const alert = function () {
-
-  
   window.alert(
     `TITOLI IN ORDINE DI RANK
 
@@ -373,5 +368,3 @@ const alert = function () {
    `
   );
 };
-
-

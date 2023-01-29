@@ -439,10 +439,11 @@ nav ul li ul li a {
   width: 80% !important;
 }
 
-body, nav {
+body,
+nav {
   background-color: black !important;
   color: blue !important;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
 }
 
 #visib {
@@ -456,11 +457,10 @@ body, nav {
   background-color: transparent !important;
 }
 
-
-#liveAlertPlaceholder{
+#liveAlertPlaceholder {
   background-color: blue;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: white;
-  border:2px solid #a24038;
+  border: 2px solid #a24038;
   border-radius: 18px;
 }
