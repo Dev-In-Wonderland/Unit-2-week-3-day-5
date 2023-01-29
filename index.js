@@ -348,14 +348,30 @@ Album: Translation,
 Album: The Highlights,
 Album: Blurryface`;
 
+
+
+
 const alert = function () {
+
+  
   window.alert(
-    `Song: One more time,
-    Song: Get lucky,
-    Song: Harder better faster stronger,
-    Song: Scatman,
-    Album: Translation,
-    Album: The Highlights,
-    Album: Blurryface`
+    `TITOLI IN ORDINE DI RANK
+
+    1 Blurryface (First song the array: stressed out), rank: 947823
+   
+    2 One more time, rank: 865309
+   
+    3 Translation (First song the array: girl like me), rank: 835287
+   
+    4 Harder better faster stronger, rank: 779547
+   
+    5 Scatman, rank: 745153
+   
+    6 The Highlights (First song the array: pray for me), rank: 713139
+   
+    7 Get lucky, rank: 454330
+   `
   );
 };
+
+
